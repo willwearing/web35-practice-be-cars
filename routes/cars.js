@@ -22,11 +22,15 @@ router.get('/', (req, res) => {
 // @route:  POST /add
 router.post('/add', (req, res) => {
   const newCar = new Car({
+    vin: req.body.vin,
     make: req.body.make,
     model: req.body.model,
     year: req.body.year,
     color: req.body.color,
     mileage: req.body.mileage,
+    wrecked: req.body.wrecked,
+    autoTrans: req.body.autoTrans,
+    doors: req.body.doors,
   })
 
   newCar
