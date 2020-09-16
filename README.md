@@ -19,6 +19,8 @@ Dev-dependencies
 
 ### URL and end points
 
+Root URL: [https://cars-be-practice.herokuapp.com/](https://cars-be-practice.herokuapp.com/)
+
 | HTTP method | end point       |
 | ----------: | :-------------- |
 |         GET | `/api/cars/`    |
