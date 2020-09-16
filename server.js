@@ -5,6 +5,7 @@ const colors = require('colors')
 const cors = require('cors')
 
 const connectDB = require('./utils/db.js')
+const CarRouter = require('./routes/cars.js')
 require('dotenv').config()
 
 const server = express()
@@ -25,6 +26,8 @@ server.get('/', (req, res) => {
     author: 'Github: @MrZacSmith',
   })
 })
+
+server.use('/api/cars', CarRouter)
 
 const PORT = process.env.PORT || 3555
 
