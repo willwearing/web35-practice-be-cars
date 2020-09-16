@@ -1,0 +1,33 @@
+{
+  "name": "web35-student-be-cars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrzacsmith/web35-practice-be-cars.git"
+  },
+  "keywords": [],
+  "author": "Mr Zac Smith <zrs3141592@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrzacsmith/web35-practice-be-cars/issues"
+  },
+  "homepage": "https://github.com/mrzacsmith/web35-practice-be-cars#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.1.1",
+    "mongoose": "^5.10.5",
+    "morgan": "^1.10.0"
+  }
+}
