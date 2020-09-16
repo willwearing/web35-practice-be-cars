@@ -2,7 +2,19 @@
 
 This is a practice backend for Web35 forms practice project for review of the weeks concepts. Database does not have any validation except what is listed below.
 
+### Installation
+
+React -> Use the new Lambda-React app, in terminal: `npx lambda-react app-name`
+Backedn -> No installation is necessary, the server has been deployed on Heroku.
+
 ### Tech
+
+Stack
+
+- NodeJs
+- ExpressJs
+- MongoDB
+- Heroku
 
 Dependencies
 
@@ -84,3 +96,5 @@ POST key:value
 | `wrecked`   | wrecked title          | boolean | false    | false  |
 | `autoTrans` | automatic transmission | boolean | false    | false  |
 | `doors`     | car door number        | numbers | false    | false  |
+
+Author info: `npx mrzacsmith`
