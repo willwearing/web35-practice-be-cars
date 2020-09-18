@@ -8,6 +8,9 @@ This is a practice backend for Web35 forms practice project for review of the we
 
 - React -> Use the new Lambda-React app, in terminal: `npx lambda-react app-name`
 - Backend -> No installation is necessary, the server has been deployed on Heroku.
+- If you would like to clone and deploy this backend, you will need a dotenv file that contains:
+  - PORT=????
+  - MONGO_URI=??????
 
 ### Tech
 
