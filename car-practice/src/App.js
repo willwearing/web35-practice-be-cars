@@ -18,7 +18,7 @@ function App() {
       .get("https://cars-be-practice.herokuapp.com/api/cars/")
       .then((response) => {
         setCars(response.data);
-        // console.log(cars); - response.data is being correctly set in state to cars
+        console.log(cars);
         setIsFetchingData(false);
       })
       .catch((error) => {
@@ -37,6 +37,7 @@ function App() {
         error={error}
         cars={cars}
         isFetchingData={isFetchingData}
+        key={cars.id}
       />
     </div>
   );
